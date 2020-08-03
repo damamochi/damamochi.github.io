@@ -17,7 +17,8 @@ a {
 
 .top-wrapper {
   padding: 450px 0 100px 0;
-  background-: url(mokumoku.jpg)!important;
+  background: url(mokumoku.jpg)!important;
+  min-width:100%;
   background-size: cover;
   height: auto;
   color: white;
