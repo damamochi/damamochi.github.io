@@ -58,7 +58,9 @@ a {
 }
 
 .note {
-  background-image: url(logo_symbol.png);
+  width:45px;
+  height:45px;
+  border-radius :10px;
 }
 
 header {
