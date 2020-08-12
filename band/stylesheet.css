@@ -57,7 +57,9 @@ a {
   background-color: #55acee;
 }
 
-
+.note {
+  background-image: url(logo_symbol.png);
+}
 
 header {
   width:100%;
