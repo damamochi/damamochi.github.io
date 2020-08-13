@@ -2,7 +2,8 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
   width: auto;
   margin: 0 auto;
-  background-color: #00ffff;
+  background-color: #7fffff;
+
 }
 
 a {
@@ -12,7 +13,9 @@ a {
 .container {
   width:auto;
   padding: 0px;
+
 }
+
 
 
 .top-wrapper {
@@ -42,20 +45,8 @@ a {
   line-height: 10px;
 }
 
-}
 
-.signup {
-  background-color: #239b76;
-}
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
 
 .note {
   width:45px;
@@ -118,15 +109,14 @@ header {
 }
 
 .news-wrapper {
-  height: 500px;
-  padding-top:40px;
-  padding-bottom: 150px;
-  background-color: #dcd3b2;
+  background-color: rgba(192, 192, 192, 0.82);
   text-align: left;
+  border-bottom: 1px solid #eee;
 }
 
 .news-wrapper a{
   color:black;
+  border-bottom: 1px solid #660099;
 }
 
 .news-wrapper span{
@@ -135,14 +125,18 @@ header {
 
 
 .heading {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  color: #5f5d60;
+  height: 650px;
+
 }
 
 .heading h2 {
   font-weight: normal;
   font-family: serif;
+  font-size: 40px;
+  color:black;
+
 }
 
 .heading h3 {
@@ -151,17 +145,19 @@ header {
 
 .live-wrapper {
   border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
   text-align: left;
-  background-color: #8d6449;
+  background-color: rgba(192, 192, 192, 0.82);
 }
 
 .live-wrapper h2{
-  color: white;
+  color: black;
+
 }
 
 .live-wrapper h3{
-  color:white;
+  color:black;
+  border-bottom: 1px solid #660099;
+  display: inline-block;
 }
 
 .fa-twitter{
@@ -176,17 +172,18 @@ header {
   border-bottom: 1px solid #eee;
   text-align: left;
   padding-bottom: 80px;
-  background-image: url(matthew-kalapuch-sqJ4tLBiurw-unsplash.jpg);
-  background-size: cover;
+  background-color: rgba(192, 192, 192, 0.82);
 }
 
-.profile-wrapper::before{
-  background-color: black;
-  opacity: 0.4;
-}
+
 
 .profile-wrapper h2,p{
-  color: white;
+  color: black;
+}
+
+.profile-wrapper p{
+  border-bottom: 1px solid #660099;
+  display: inline-block;
 }
 
 .profile-title{
@@ -198,19 +195,29 @@ header {
   border-bottom: 1px solid #eee;
   text-align: left;
   padding-bottom: 80px;
-  background-color: #c0c0c0;
+  background-color: rgba(192, 192, 192, 0.82);
+}
+
+.discography-wrapper p{
+  border-bottom: 1px solid #660099;
+  display: inline-block;
 }
 
 .contact-wrapper{
   border-bottom: 1px solid #eee;
   text-align: left;
-  padding-bottom: 80px;
-  background-color: black;
+  background-color: rgba(192, 192, 192, 0.82);
 }
 
 .contact-wrapper h2{
-  color:white;
+  color:black;
 }
+
+.contact-wrapper p{
+  border-bottom: 1px solid #660099;
+  display: inline-block;
+}
+
 footer h1 {
   color: white;
   font-family:"Monotype Corsiva",fantasy;
